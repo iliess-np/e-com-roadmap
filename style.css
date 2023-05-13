@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+body {
+  margin: 20px;
+}
+div {
+  margin-bottom: 30px;
+}
+h2 {
+  text-decoration: underline;
+  margin-bottom: 16px;
+}
+h4 {
+  margin-top: 1rem;
+}
+h5 {
+  margin-top: 0.5rem;
+}
+a {
+  color: blue;
+}
+p {
+  margin-bottom: 16px;
+}
+
+p + code {
+  display: block;
+  margin-top: -10px;
+}
+p + code + p {
+  margin-top: 10px;
+}
+.code {
+  padding: 5px;
+  outline: 1px solid slategrey;
+  display: inline-block;
+}
+code pre {
+  padding: 10px;
+  font-size: 115%;
+  background-color: rgba(222, 222, 222, 0.3);
+  max-width: max-content;
+  max-height: max-content;
+  color: hotpink;
+}
+.bg_blue {
+  display: inline-block;
+  background-color: aqua;
+}
+.bg_orange {
+  display: inline-block;
+  background-color: orange;
+}
+.text-comment {
+  color: green;
+}
+
+.sample-code-frame {
+  background: #fff;
+  border: 1px solid #8d8a8a;
+  border-radius: 15px;
+  box-sizing: content-box;
+  padding: 1rem;
+  width: calc(90% - 2rem - 2px);
+}
+
+.flex-container {
+  background-color: #f4f7f8;
+  resize: horizontal;
+  overflow: hidden;
+  display: flex;
+  margin: 1em;
+}
+
+.item {
+  margin: 1em;
+  padding: 0.5em;
+  width: 110px;
+  min-width: 0;
+  background-color: #1b5385;
+  color: white;
+  font-family: monospace;
+  font-size: 13px;
+}
+
+.sample-code-frame .flex-container .item.initial {
+  flex: initial;
+}
+
+.sample-code-frame .flex-container .item.auto {
+  flex: auto;
+}
+
+.sample-code-frame .flex-container .item.none {
+  flex: none;
+}
+
+.sample-code-frame .flex-container .item.four {
+  flex: 4;
+}
+
+.sample-code-frame .flex-container .item.two {
+  flex: 2;
+}
+
+.sample-code-frame .flex-container .item.one {
+  flex: 1;
+}
+
+.example {
+  display: block;
+  width: max-content;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  margin-left: 5rem;
+  border: 2px solid tomato;
+  border-radius: 5px;
+}
+
+mark {
+  background-color: aquamarine;
+  padding: 5px 7px;
+  border-radius: 25px;
+}
+
+#resources > div > p {
+  font-family: "Sriracha";
+  font-size: 20px;
+}
