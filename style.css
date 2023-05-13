@@ -10,6 +10,9 @@
 body {
   margin: 20px;
 }
+.price {
+  display: none;
+}
 div {
   margin-bottom: 30px;
 }
